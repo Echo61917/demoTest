@@ -4,10 +4,11 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
 
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
    <bottom>
-      <GridPane alignment="CENTER" BorderPane.alignment="CENTER">
+      <GridPane alignment="CENTER" hgap="5.0" vgap="5.0" BorderPane.alignment="CENTER">
         <columnConstraints>
           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -28,125 +29,206 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" text="A">
+            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onAButtonClick" text="A">
                <opaqueInsets>
                   <Insets />
                </opaqueInsets>
                <GridPane.margin>
-                  <Insets left="25.0" />
-               </GridPane.margin></Button>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Comic Sans MS" size="16.0" />
+               </font></Button>
             <Button mnemonicParsing="false" text="B" GridPane.columnIndex="1">
                <GridPane.margin>
-                  <Insets left="25.0" />
-               </GridPane.margin></Button>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Comic Sans MS" size="16.0" />
+               </font></Button>
             <Button mnemonicParsing="false" text="C" GridPane.columnIndex="2">
                <GridPane.margin>
-                  <Insets left="25.0" />
-               </GridPane.margin></Button>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Comic Sans MS" size="16.0" />
+               </font></Button>
             <Button mnemonicParsing="false" text="D" GridPane.columnIndex="3">
                <GridPane.margin>
-                  <Insets left="25.0" />
-               </GridPane.margin></Button>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Comic Sans MS" size="16.0" />
+               </font></Button>
             <Button mnemonicParsing="false" text="E" GridPane.columnIndex="4">
                <GridPane.margin>
-                  <Insets left="25.0" />
-               </GridPane.margin></Button>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Comic Sans MS" size="16.0" />
+               </font></Button>
             <Button mnemonicParsing="false" text="F" GridPane.columnIndex="5">
                <GridPane.margin>
-                  <Insets left="25.0" />
-               </GridPane.margin></Button>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Comic Sans MS" size="16.0" />
+               </font></Button>
             <Button mnemonicParsing="false" text="G" GridPane.columnIndex="6">
                <GridPane.margin>
-                  <Insets left="25.0" />
-               </GridPane.margin></Button>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Comic Sans MS" size="16.0" />
+               </font></Button>
             <Button mnemonicParsing="false" text="H" GridPane.columnIndex="7">
                <GridPane.margin>
-                  <Insets left="25.0" />
-               </GridPane.margin></Button>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Comic Sans MS" size="16.0" />
+               </font></Button>
             <Button mnemonicParsing="false" text="I" GridPane.columnIndex="8">
                <GridPane.margin>
-                  <Insets left="25.0" />
-               </GridPane.margin></Button>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Comic Sans MS" size="16.0" />
+               </font></Button>
             <Button mnemonicParsing="false" text="J" GridPane.columnIndex="9">
                <GridPane.margin>
-                  <Insets left="25.0" />
-               </GridPane.margin></Button>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Comic Sans MS" size="16.0" />
+               </font></Button>
             <Button mnemonicParsing="false" text="K" GridPane.columnIndex="10">
                <GridPane.margin>
-                  <Insets left="25.0" />
-               </GridPane.margin></Button>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Comic Sans MS" size="16.0" />
+               </font></Button>
             <Button mnemonicParsing="false" text="L" GridPane.columnIndex="11">
                <GridPane.margin>
-                  <Insets left="25.0" />
-               </GridPane.margin></Button>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Comic Sans MS" size="16.0" />
+               </font></Button>
             <Button mnemonicParsing="false" text="M" GridPane.columnIndex="12">
                <GridPane.margin>
-                  <Insets left="25.0" />
-               </GridPane.margin></Button>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Comic Sans MS" size="16.0" />
+               </font></Button>
             <Button mnemonicParsing="false" text="N" GridPane.rowIndex="1">
                <GridPane.margin>
-                  <Insets left="25.0" />
-               </GridPane.margin></Button>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Comic Sans MS" size="16.0" />
+               </font></Button>
             <Button mnemonicParsing="false" text="O" GridPane.columnIndex="1" GridPane.rowIndex="1">
                <GridPane.margin>
-                  <Insets left="25.0" />
-               </GridPane.margin></Button>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Comic Sans MS" size="16.0" />
+               </font></Button>
             <Button mnemonicParsing="false" text="P" GridPane.columnIndex="2" GridPane.rowIndex="1">
                <GridPane.margin>
-                  <Insets left="25.0" />
-               </GridPane.margin></Button>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Comic Sans MS" size="16.0" />
+               </font></Button>
             <Button mnemonicParsing="false" text="Q" GridPane.columnIndex="3" GridPane.rowIndex="1">
                <GridPane.margin>
-                  <Insets left="25.0" />
-               </GridPane.margin></Button>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Comic Sans MS" size="16.0" />
+               </font></Button>
             <Button mnemonicParsing="false" text="R" GridPane.columnIndex="4" GridPane.rowIndex="1">
                <GridPane.margin>
-                  <Insets left="25.0" />
-               </GridPane.margin></Button>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Comic Sans MS" size="16.0" />
+               </font></Button>
             <Button mnemonicParsing="false" text="S" GridPane.columnIndex="5" GridPane.rowIndex="1">
                <GridPane.margin>
-                  <Insets left="25.0" />
-               </GridPane.margin></Button>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Comic Sans MS" size="16.0" />
+               </font></Button>
             <Button mnemonicParsing="false" text="T" GridPane.columnIndex="6" GridPane.rowIndex="1">
                <GridPane.margin>
-                  <Insets left="25.0" />
-               </GridPane.margin></Button>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Comic Sans MS" size="16.0" />
+               </font></Button>
             <Button mnemonicParsing="false" text="U" GridPane.columnIndex="7" GridPane.rowIndex="1">
                <GridPane.margin>
-                  <Insets left="25.0" />
-               </GridPane.margin></Button>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Comic Sans MS" size="16.0" />
+               </font></Button>
             <Button mnemonicParsing="false" text="V" GridPane.columnIndex="8" GridPane.rowIndex="1">
                <GridPane.margin>
-                  <Insets left="25.0" />
-               </GridPane.margin></Button>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Comic Sans MS" size="16.0" />
+               </font></Button>
             <Button mnemonicParsing="false" text="W" GridPane.columnIndex="9" GridPane.rowIndex="1">
                <GridPane.margin>
-                  <Insets left="25.0" />
-               </GridPane.margin></Button>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Comic Sans MS" size="16.0" />
+               </font></Button>
             <Button mnemonicParsing="false" text="X" GridPane.columnIndex="10" GridPane.rowIndex="1">
                <GridPane.margin>
-                  <Insets left="25.0" />
-               </GridPane.margin></Button>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Comic Sans MS" size="16.0" />
+               </font></Button>
             <Button mnemonicParsing="false" text="Y" GridPane.columnIndex="11" GridPane.rowIndex="1">
                <GridPane.margin>
-                  <Insets left="25.0" />
-               </GridPane.margin></Button>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Comic Sans MS" size="16.0" />
+               </font></Button>
             <Button mnemonicParsing="false" text="Z" GridPane.columnIndex="12" GridPane.rowIndex="1">
                <GridPane.margin>
-                  <Insets left="25.0" />
-               </GridPane.margin></Button>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Comic Sans MS" size="16.0" />
+               </font></Button>
          </children>
+         <padding>
+            <Insets bottom="20.0" />
+         </padding>
       </GridPane>
    </bottom>
    <left>
       <StackPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="476.0" prefWidth="426.0" BorderPane.alignment="CENTER">
          <children>
-            <Circle fill="#eeeeee" radius="25.0" scaleX="1.5" scaleY="1.5" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" translateY="-135.0" />
-            <Line endX="100.0" rotate="90.0" scaleX="0.75" scaleY="10.0" startX="-100.0" translateY="-25.0" />
-            <Line endX="100.0" rotate="-60.0" scaleX="0.5" scaleY="8.0" startX="-100.0" translateX="-25.0" translateY="-10.0" />
-            <Line endX="100.0" rotate="60.0" scaleX="0.5" scaleY="8.0" startX="-100.0" translateX="25.0" translateY="-10.0" />
-            <Line endX="100.0" rotate="45.0" scaleX="0.5" scaleY="10.0" startX="-100.0" translateX="35.0" translateY="85.0" />
-            <Line endX="100.0" rotate="-45.0" scaleX="0.5" scaleY="10.0" startX="-100.0" translateX="-35.0" translateY="85.0" />
+            <Circle fill="#eeeeee" opacity="0.5" radius="25.0" scaleX="1.5" scaleY="1.5" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" translateY="-135.0" />
+            <Line endX="100.0" opacity="0.5" rotate="90.0" scaleX="0.75" scaleY="10.0" startX="-100.0" translateY="-25.0" />
+            <Line endX="100.0" opacity="0.5" rotate="-60.0" scaleX="0.5" scaleY="8.0" startX="-100.0" translateX="-25.0" translateY="-10.0" />
+            <Line endX="100.0" opacity="0.5" rotate="60.0" scaleX="0.5" scaleY="8.0" startX="-100.0" translateX="25.0" translateY="-10.0" />
+            <Line endX="100.0" opacity="0.5" rotate="45.0" scaleX="0.5" scaleY="10.0" startX="-100.0" translateX="35.0" translateY="85.0" />
+            <Line endX="100.0" opacity="0.5" rotate="-45.0" scaleX="0.5" scaleY="10.0" startX="-100.0" translateX="-35.0" translateY="85.0" />
             <Line endX="100.0" rotate="90.0" scaleX="1.8" scaleY="15.0" startX="-100.0" translateX="-125.0" translateY="-30.0" />
             <Line endX="100.0" scaleX="0.65" scaleY="15.0" startX="-100.0" translateX="-54.0" translateY="-204.0" />
             <Line endX="100.0" rotate="90.0" scaleX="0.15" scaleY="15.0" startX="-100.0" translateX="-1.0" translateY="-188.0" />
