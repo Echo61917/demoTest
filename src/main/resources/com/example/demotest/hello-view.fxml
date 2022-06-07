@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.*?>
+<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.shape.*?>
@@ -29,7 +30,7 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onAButtonClick" text="A">
+            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" text="A" GridPane.halignment="LEFT" GridPane.hgrow="NEVER" GridPane.valignment="CENTER" GridPane.vgrow="NEVER">
                <opaqueInsets>
                   <Insets />
                </opaqueInsets>
@@ -38,186 +39,342 @@
                </GridPane.margin>
                <font>
                   <Font name="Comic Sans MS" size="16.0" />
-               </font></Button>
-            <Button mnemonicParsing="false" text="B" GridPane.columnIndex="1">
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button mnemonicParsing="false" text="B" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.hgrow="NEVER" GridPane.valignment="CENTER" GridPane.vgrow="NEVER">
                <GridPane.margin>
                   <Insets left="10.0" />
                </GridPane.margin>
                <font>
                   <Font name="Comic Sans MS" size="16.0" />
-               </font></Button>
-            <Button mnemonicParsing="false" text="C" GridPane.columnIndex="2">
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button mnemonicParsing="false" text="C" GridPane.columnIndex="2" GridPane.halignment="LEFT" GridPane.hgrow="NEVER" GridPane.valignment="CENTER" GridPane.vgrow="NEVER">
                <GridPane.margin>
                   <Insets left="10.0" />
                </GridPane.margin>
                <font>
                   <Font name="Comic Sans MS" size="16.0" />
-               </font></Button>
-            <Button mnemonicParsing="false" text="D" GridPane.columnIndex="3">
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button mnemonicParsing="false" text="D" GridPane.columnIndex="3" GridPane.halignment="LEFT" GridPane.hgrow="NEVER" GridPane.valignment="CENTER" GridPane.vgrow="NEVER">
                <GridPane.margin>
                   <Insets left="10.0" />
                </GridPane.margin>
                <font>
                   <Font name="Comic Sans MS" size="16.0" />
-               </font></Button>
-            <Button mnemonicParsing="false" text="E" GridPane.columnIndex="4">
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button mnemonicParsing="false" text="E" GridPane.columnIndex="4" GridPane.halignment="LEFT" GridPane.hgrow="NEVER" GridPane.valignment="CENTER" GridPane.vgrow="NEVER">
                <GridPane.margin>
                   <Insets left="10.0" />
                </GridPane.margin>
                <font>
                   <Font name="Comic Sans MS" size="16.0" />
-               </font></Button>
-            <Button mnemonicParsing="false" text="F" GridPane.columnIndex="5">
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button mnemonicParsing="false" text="F" GridPane.columnIndex="5" GridPane.halignment="LEFT" GridPane.hgrow="NEVER" GridPane.valignment="CENTER" GridPane.vgrow="NEVER">
                <GridPane.margin>
                   <Insets left="10.0" />
                </GridPane.margin>
                <font>
                   <Font name="Comic Sans MS" size="16.0" />
-               </font></Button>
-            <Button mnemonicParsing="false" text="G" GridPane.columnIndex="6">
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button mnemonicParsing="false" text="G" GridPane.columnIndex="6" GridPane.halignment="LEFT" GridPane.hgrow="NEVER" GridPane.valignment="CENTER" GridPane.vgrow="NEVER">
                <GridPane.margin>
                   <Insets left="10.0" />
                </GridPane.margin>
                <font>
                   <Font name="Comic Sans MS" size="16.0" />
-               </font></Button>
-            <Button mnemonicParsing="false" text="H" GridPane.columnIndex="7">
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button mnemonicParsing="false" text="H" GridPane.columnIndex="7" GridPane.halignment="LEFT" GridPane.hgrow="NEVER" GridPane.valignment="CENTER" GridPane.vgrow="NEVER">
                <GridPane.margin>
                   <Insets left="10.0" />
                </GridPane.margin>
                <font>
                   <Font name="Comic Sans MS" size="16.0" />
-               </font></Button>
-            <Button mnemonicParsing="false" text="I" GridPane.columnIndex="8">
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button mnemonicParsing="false" text="I" GridPane.columnIndex="8" GridPane.halignment="LEFT" GridPane.hgrow="NEVER" GridPane.valignment="CENTER" GridPane.vgrow="NEVER">
                <GridPane.margin>
                   <Insets left="10.0" />
                </GridPane.margin>
                <font>
                   <Font name="Comic Sans MS" size="16.0" />
-               </font></Button>
-            <Button mnemonicParsing="false" text="J" GridPane.columnIndex="9">
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button mnemonicParsing="false" text="J" GridPane.columnIndex="9" GridPane.halignment="LEFT" GridPane.hgrow="NEVER" GridPane.valignment="CENTER" GridPane.vgrow="NEVER">
                <GridPane.margin>
                   <Insets left="10.0" />
                </GridPane.margin>
                <font>
                   <Font name="Comic Sans MS" size="16.0" />
-               </font></Button>
-            <Button mnemonicParsing="false" text="K" GridPane.columnIndex="10">
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button mnemonicParsing="false" text="K" GridPane.columnIndex="10" GridPane.halignment="LEFT" GridPane.hgrow="NEVER" GridPane.valignment="CENTER" GridPane.vgrow="NEVER">
                <GridPane.margin>
                   <Insets left="10.0" />
                </GridPane.margin>
                <font>
                   <Font name="Comic Sans MS" size="16.0" />
-               </font></Button>
-            <Button mnemonicParsing="false" text="L" GridPane.columnIndex="11">
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button mnemonicParsing="false" text="L" GridPane.columnIndex="11" GridPane.halignment="LEFT" GridPane.hgrow="NEVER" GridPane.valignment="CENTER" GridPane.vgrow="NEVER">
                <GridPane.margin>
                   <Insets left="10.0" />
                </GridPane.margin>
                <font>
                   <Font name="Comic Sans MS" size="16.0" />
-               </font></Button>
-            <Button mnemonicParsing="false" text="M" GridPane.columnIndex="12">
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button mnemonicParsing="false" text="M" GridPane.columnIndex="12" GridPane.halignment="LEFT" GridPane.hgrow="NEVER" GridPane.valignment="CENTER" GridPane.vgrow="NEVER">
                <GridPane.margin>
                   <Insets left="10.0" />
                </GridPane.margin>
                <font>
                   <Font name="Comic Sans MS" size="16.0" />
-               </font></Button>
-            <Button mnemonicParsing="false" text="N" GridPane.rowIndex="1">
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button mnemonicParsing="false" text="N" GridPane.halignment="LEFT" GridPane.hgrow="NEVER" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="NEVER">
                <GridPane.margin>
                   <Insets left="10.0" />
                </GridPane.margin>
                <font>
                   <Font name="Comic Sans MS" size="16.0" />
-               </font></Button>
-            <Button mnemonicParsing="false" text="O" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button mnemonicParsing="false" text="O" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.hgrow="NEVER" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="NEVER">
                <GridPane.margin>
                   <Insets left="10.0" />
                </GridPane.margin>
                <font>
                   <Font name="Comic Sans MS" size="16.0" />
-               </font></Button>
-            <Button mnemonicParsing="false" text="P" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button mnemonicParsing="false" text="P" GridPane.columnIndex="2" GridPane.halignment="LEFT" GridPane.hgrow="NEVER" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="NEVER">
                <GridPane.margin>
                   <Insets left="10.0" />
                </GridPane.margin>
                <font>
                   <Font name="Comic Sans MS" size="16.0" />
-               </font></Button>
-            <Button mnemonicParsing="false" text="Q" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button mnemonicParsing="false" text="Q" GridPane.columnIndex="3" GridPane.halignment="LEFT" GridPane.hgrow="NEVER" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="NEVER">
                <GridPane.margin>
                   <Insets left="10.0" />
                </GridPane.margin>
                <font>
                   <Font name="Comic Sans MS" size="16.0" />
-               </font></Button>
-            <Button mnemonicParsing="false" text="R" GridPane.columnIndex="4" GridPane.rowIndex="1">
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button mnemonicParsing="false" text="R" GridPane.columnIndex="4" GridPane.halignment="LEFT" GridPane.hgrow="NEVER" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="NEVER">
                <GridPane.margin>
                   <Insets left="10.0" />
                </GridPane.margin>
                <font>
                   <Font name="Comic Sans MS" size="16.0" />
-               </font></Button>
-            <Button mnemonicParsing="false" text="S" GridPane.columnIndex="5" GridPane.rowIndex="1">
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button mnemonicParsing="false" text="S" GridPane.columnIndex="5" GridPane.halignment="LEFT" GridPane.hgrow="NEVER" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="NEVER">
                <GridPane.margin>
                   <Insets left="10.0" />
                </GridPane.margin>
                <font>
                   <Font name="Comic Sans MS" size="16.0" />
-               </font></Button>
-            <Button mnemonicParsing="false" text="T" GridPane.columnIndex="6" GridPane.rowIndex="1">
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button mnemonicParsing="false" text="T" GridPane.columnIndex="6" GridPane.halignment="LEFT" GridPane.hgrow="NEVER" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="NEVER">
                <GridPane.margin>
                   <Insets left="10.0" />
                </GridPane.margin>
                <font>
                   <Font name="Comic Sans MS" size="16.0" />
-               </font></Button>
-            <Button mnemonicParsing="false" text="U" GridPane.columnIndex="7" GridPane.rowIndex="1">
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button mnemonicParsing="false" text="U" GridPane.columnIndex="7" GridPane.halignment="LEFT" GridPane.hgrow="NEVER" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="NEVER">
                <GridPane.margin>
                   <Insets left="10.0" />
                </GridPane.margin>
                <font>
                   <Font name="Comic Sans MS" size="16.0" />
-               </font></Button>
-            <Button mnemonicParsing="false" text="V" GridPane.columnIndex="8" GridPane.rowIndex="1">
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button mnemonicParsing="false" text="V" GridPane.columnIndex="8" GridPane.halignment="LEFT" GridPane.hgrow="NEVER" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="NEVER">
                <GridPane.margin>
                   <Insets left="10.0" />
                </GridPane.margin>
                <font>
                   <Font name="Comic Sans MS" size="16.0" />
-               </font></Button>
-            <Button mnemonicParsing="false" text="W" GridPane.columnIndex="9" GridPane.rowIndex="1">
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button mnemonicParsing="false" text="W" GridPane.columnIndex="9" GridPane.halignment="LEFT" GridPane.hgrow="NEVER" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="NEVER">
                <GridPane.margin>
                   <Insets left="10.0" />
                </GridPane.margin>
                <font>
                   <Font name="Comic Sans MS" size="16.0" />
-               </font></Button>
-            <Button mnemonicParsing="false" text="X" GridPane.columnIndex="10" GridPane.rowIndex="1">
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button mnemonicParsing="false" text="X" GridPane.columnIndex="10" GridPane.halignment="LEFT" GridPane.hgrow="NEVER" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="NEVER">
                <GridPane.margin>
                   <Insets left="10.0" />
                </GridPane.margin>
                <font>
                   <Font name="Comic Sans MS" size="16.0" />
-               </font></Button>
-            <Button mnemonicParsing="false" text="Y" GridPane.columnIndex="11" GridPane.rowIndex="1">
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button mnemonicParsing="false" text="Y" GridPane.columnIndex="11" GridPane.halignment="LEFT" GridPane.hgrow="NEVER" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="NEVER">
                <GridPane.margin>
                   <Insets left="10.0" />
                </GridPane.margin>
                <font>
                   <Font name="Comic Sans MS" size="16.0" />
-               </font></Button>
-            <Button mnemonicParsing="false" text="Z" GridPane.columnIndex="12" GridPane.rowIndex="1">
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button mnemonicParsing="false" text="Z" GridPane.columnIndex="12" GridPane.halignment="LEFT" GridPane.hgrow="NEVER" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="NEVER">
                <GridPane.margin>
                   <Insets left="10.0" />
                </GridPane.margin>
                <font>
                   <Font name="Comic Sans MS" size="16.0" />
-               </font></Button>
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
          </children>
          <padding>
             <Insets bottom="20.0" />
          </padding>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
       </GridPane>
    </bottom>
    <left>
